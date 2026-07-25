@@ -1,0 +1,18 @@
+{
+  "name": "♥️ SHAMII X MRASAD MD PAIR♥️",
+  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "logo": "https://kommodo.ai/i/JYedazchVQaOG2Vi6DPn",
+  "repository": "https://github.com/ArslanMDofficial/Arslan-MD-Mini-V2",
+  "keywords": ["@ShamiiXMrAsad-MD"],
+  "success_url": "/", 
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+  ],
+  "env": {      
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": "🔰 BY || SHAMII X MRASAD-MD OFFICIAL 🔰",
+      "required": false 
+    }
+  }
+}
